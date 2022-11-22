@@ -1,0 +1,262 @@
+
+ /*  CSS used on the frontpage */ 
+
+.CLASSNAME {
+	font-family: 'daredevil';
+	
+}
+
+*{
+	margin: 0px;
+}
+
+body {
+	padding: 5% 20%;
+
+	}
+
+p {
+	font-family: georgia, times, serif; 
+	color: white; 
+	margin: 0% 5%;
+	padding-bottom: 30px;
+}
+
+
+.header {
+	font-family: 'Daredevil',"helvetica","sans-serif"; /*a name to be used later*/
+    font: url(/assets/fonts/daredevil.ttf); /*URL to font*/
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	line-height: 2em;
+	color: white;
+	background-color: rgb(231,34,49);
+	background-image: url(../assets/images/honneycomb.png);
+	background-repeat: repeat;
+	text-align: center;
+	
+	
+}
+
+
+.homepage {
+background-image: -webkit-linear-gradient(rgba(35,38,42,0.5), rgba(35,38,42,0.9)), url("../assets/images/heroes.png");
+background-image: -o-linear-gradient(rgba(35,38,42,0.5), rgba(35,38,42,0.9)), url("../assets/images/heroes.png");
+background-image: linear-gradient(rgba(35,38,42,0.5), rgba(35,38,42,0.9)), url("../assets/images/heroes.png");
+	
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: auto 100%;
+	background-attachment: fixed;
+
+}
+
+.table-box {
+	display: inline-block;
+	background-image: linear-gradient(rgba(225,225,225,0.7), rgba(225, 225, 225, 0.9));
+	box-shadow: 10px 10px 10px 1px rgba(231,34,49,0.21);
+	justify-content: center;
+	align-items: center;
+}
+
+	
+	
+
+
+#content p {
+	color: black;
+}
+
+#pickahero a {
+	text-decoration: none;
+	color: black;
+
+}
+	
+#pickahero a:hover {
+	text-decoration: underline
+}	
+
+
+
+.footer {
+	position: fixed;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	
+		
+	}
+
+#hr {
+	width: 100%; text-align: center;
+}
+
+
+
+
+
+
+ /*  CSS used in the Deadpool-page */ 
+
+.info-hero {
+background-image: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.9)), url("../assets/images/heroes.png");
+background-image: -o-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.9)), url("../assets/images/heroes.png");
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.9)), url("../assets/images/heroes.png");
+	
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: auto 100%;
+	background-attachment: fixed;
+
+}
+
+
+.hero-box {
+	display: inline-block;
+	background-image: linear-gradient(rgba(35,38,42,0.5), rgba(35,38,42,0.9));
+	box-shadow: 10px 10px 10px 1px rgba(231,34,49,0.21);
+	justify-content: center;
+	align-items: center;
+
+}
+
+#hero-content {
+color: white; 
+}	
+	
+ /*  CSS used in big letters and quotes */ 
+
+
+.intro {
+	font-family: 'georgia', times, serif;
+	font-size: 1em; 
+}
+intro::first-letter {
+	font-size: 200%;}
+
+intro::first-line {
+	font-weight: bold; 
+}
+	
+
+blockquote {
+  quotes: '/201C' '/201D';
+}
+
+blockquote:before {
+  color: #ccc;
+	font-size: 4em;
+	font-weight: bold; 
+  content: "\201C";
+}
+
+blockquote:after {
+  color: #ccc;
+	font-size: 4em; 
+	font-weight: bold;
+  content: "\201D";
+}
+
+blockquote p {
+  display: block;
+}
+
+
+#credit {
+	letter-spacing: 0.2em;
+	font-family: 'Courier New', courier, 'monospace';
+	font-size: 1.2em;
+	text-decoration: underline;
+	
+}
+
+
+
+/*  The box who shows the heroes abilities */
+
+#power-table {
+  border-collapse: collapse;
+  border-radius: 2em;
+  overflow: hidden;
+	-moz-border-radius:2em;
+	-webkit-border-radius:2em;
+  width: 40%;
+  margin: auto;
+}
+
+#power-table td {
+  padding: 5px 10px;
+}
+
+#power-table th {
+	text-transform: uppercase;
+  text-align: right;
+}
+
+.red-power-box{
+	background-color: #e422357a;			 /*  All the background-colors can be changed. */ 
+}
+
+.black-power-box {
+	background-color: #1515157a;
+}
+
+.yellow-power-box {
+	background-color: #E8B63D7a;
+}
+
+#power-table .powers th {
+  text-align: center;
+}
+
+
+/*  Story-text and navigation at the bottom of the page. */
+
+.story {
+	font-family: georgia, times, serif;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.inline {
+	text-indent: 1.5em; 
+	padding-top: 2em;
+	margin: 1em;
+}
+
+.navfooter {
+	padding-bottom: 5%;
+	padding-right: 5%;	
+	text-align: right; 
+
+}
+
+.button {
+	border-collapse: collapse;
+  	border-radius: 25%;
+  	border: none;
+  	overflow: hidden;
+	-moz-border-radius:2em	
+	:-webkit-border-radius:2em;
+  	width: 5%;
+	background-color: rgba(231,34,49,1.0);
+	padding: 1% 1%;
+	a::visited: black;
+}
+.button a {
+	text-decoration: none;
+	color: white;
+
+}
+	
+.button a:hover {
+	text-decoration: underline;
+	font-weight: bold 
+
+}	
+
+.button a:visited {
+	color: black;
+}
